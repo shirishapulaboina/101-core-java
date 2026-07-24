@@ -34,11 +34,11 @@ public class Employee {
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
-	public void promoteEmployee() {
+	public void promoteEmployee(String designation) {
 		if(performanceRating >=4) {
 			salary=salary+(salary*0.20);
 			
-			designation="Senior Developer";
+			this.designation=designation;
 			System.out.println("Employee Promoted Successfully:");
 			System.out.println("After promotion:");
 			System.out.println("Employee salary:"+salary);

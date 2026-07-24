@@ -33,7 +33,7 @@ public class BankAccount {
 		}
 	}
 	public void withdraw(double amount) {
-		if(balance>=amount) {
+		if(balance>=amount && amount>0) {
 			balance-=amount;
 			System.out.println("debited amount:"+amount);
 			System.out.println("updated Balance"+balance);
