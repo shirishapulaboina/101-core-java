@@ -24,7 +24,7 @@ public class BankProcessor {
 		
 		obj.deposit(amount);
 		System.out.println();
-
+		
 		System.out.println("After withdraw:");
 	
 		obj.withdraw(amount);

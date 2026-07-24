@@ -11,7 +11,7 @@ public class EmployeeProcessor {
 		String empName=sc.next();
 		System.out.println("enter employee  Designation:");
 		String empDesg=sc.next();
-		System.out.println("enter employee Salary:");
+		System.out.println("enter employee Salary:"); 
 		double empSalray=sc.nextDouble();
 		System.out.println("enter performace Rating:");
 		int rating=sc.nextInt();
